@@ -1,9 +1,9 @@
 <script setup>
 import { ref, reactive, onMounted, watch } from 'vue';
 import {db} from './data/guitarras.js';
-import Guitarra from '/components/Guitarra.vue';
-import Header from '/components/Header.vue';
-import Footer from '/components/Footer.vue';
+import Guitarra from './components/Guitarra.vue';
+import Header from './components/Header.vue';
+import Footer from './components/Footer.vue';
 
 const guitarras = ref([]);
 const carrito = ref([]);
