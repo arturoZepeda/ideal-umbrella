@@ -78,6 +78,7 @@ const vaciarCarrito =()=>{
         <div class="row mt-5">  
           <Guitarra 
             v-for="guitarra in guitarras"
+            :key="guitarra.id"
             :guitarra="guitarra"
             @agregar-carrito="agregarCarrito"
           />
