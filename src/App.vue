@@ -2,7 +2,7 @@
 import { ref, reactive, onMounted, watch } from 'vue';
 import {db} from './data/guitarras.js';
 import Guitarra from './components/Guitarra.vue';
-import Header from './components/Header.vue';
+import Header from './components/Cabecera.vue';
 import Footer from './components/Footer.vue';
 
 const guitarras = ref([]);
